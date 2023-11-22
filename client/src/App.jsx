@@ -46,17 +46,27 @@ function App() {
           </a>
         </div>
       </section>
-      <ProjCard
-        title="Emohelper"
-        proj="https://github.com/destineevaldivia/EmoHelper/raw/complete_mvp/emohelper-demo-screenshot.png"
-        blurb="This is where my project pitch and description will go. blah blah blah"
-      />
-
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div> */}
+      <section className="proj-section">
+        <ProjCard
+          title="Emohelper"
+          proj="https://github.com/destineevaldivia/EmoHelper/raw/complete_mvp/emohelper-demo-screenshot.png"
+          blurb="This is where my project pitch and description will go. blah blah blah"
+        />
+        <ProjCard
+          title="Cat project"
+          proj="https://framerusercontent.com/images/zzV322o8JXlpP2XzSCkCxN0zxM.jpg?scale-down-to=512"
+          blurb="This will be text about the project as well. blah blah blahj. "
+        />
+        <ProjCard
+          title="Open source project"
+          proj="https://framerusercontent.com/images/zzV322o8JXlpP2XzSCkCxN0zxM.jpg?scale-down-to=512"
+          blurb="This will be text about the project as well. blah blah blahj. "
+        />
+      </section>
+      <footer>
+        <div>©2023</div>
+        <div>destvaldivia@gmail.com</div>
+      </footer>
     </>
   );
 }

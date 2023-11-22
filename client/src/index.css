@@ -53,6 +53,13 @@
   width: 50px;
 }
 
+.proj-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
 .card-container {
   flex-direction: column;
   align-items: center;
@@ -61,6 +68,8 @@
   max-width: 300px;
   transition: box-shadow 0.3s ease;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  max-width: 300px; /* Example max-width, adjust as necessary */
+  margin: 10px; /* Adjust the margin as needed */
 }
 .card-container:hover {
   box-shadow: 0px 0px 20px 10px rgba(108, 50, 167, 0.6);
@@ -81,4 +90,14 @@
 .card-description {
   border-top: solid;
   padding: 2px;
+}
+footer {
+  background-color: #39508c;
+  height: 3rem;
+  padding: 5px;
+  align-items: flex-end;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+  color: #dfd5ec;
 }
