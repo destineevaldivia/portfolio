@@ -3,15 +3,12 @@ import Nav from "./components/Nav";
 import ProjCard from "./components/ProjCard";
 
 function App() {
-  // const [count, setCount] = useState(0);
-
   return (
     <>
       <Nav />
       <main className="main">
         <blockquote className="intro-quote">
-          Destinee is an imaginative software engineer + excellent dancer and
-          dinner host!
+          Destinee is an visionary software engineer + phenomenal dinner host!
         </blockquote>
         <a
           href="https://www.linkedin.com/in/destinee-valdivia/"

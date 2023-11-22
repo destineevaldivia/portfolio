@@ -1,6 +1,6 @@
 const ProjCard = () => {
   return (
-    <section className="proj-section">
+    <section className="proj-header">
       <h1 className="proj-title"> Projects</h1>
       <div className="social-links">
         <a

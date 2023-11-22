@@ -27,7 +27,6 @@
 .intro-quote {
   display: flex;
   align-items: center;
-  max-width: 25rem;
   padding: 3rem;
 }
 
@@ -36,7 +35,7 @@
   border-radius: 200px;
 }
 
-.proj-section {
+.proj-header {
   display: flex;
   justify-content: space-between;
   border-block-end: 0.15rem solid;
