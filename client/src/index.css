@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   border-block-end: 0.15rem solid;
   writing-mode: horizontal-tb;
 }
@@ -50,4 +51,34 @@
 
 .social-img {
   width: 50px;
+}
+
+.card-container {
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  border: 0.15rem solid;
+  max-width: 300px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.card-container:hover {
+  box-shadow: 0px 0px 20px 10px rgba(108, 50, 167, 0.6);
+}
+.card-title {
+  margin: auto;
+  height: 3rem;
+  font-size: x-large;
+  padding: 15px;
+  text-align: center;
+  background-color: #39508c;
+  color: aliceblue;
+}
+.github-repo-img {
+  width: 80%;
+  margin: 20px;
+}
+.card-description {
+  border-top: solid;
+  padding: 2px;
 }
